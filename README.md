@@ -1,2 +1,2 @@
 # www
-Aspects of the WWW support for the team
+Aspects of WWW support for the team
