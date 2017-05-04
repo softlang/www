@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Software Languages Team at Koblenz
+title: SOFTLANG Team at Koblenz
 email: softlang@uni-koblenz.de
 description: > # this means to ignore newlines until "baseurl:"
-   This is an experimental web area of the Software Languages Team at Koblenz.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.softlang.org/" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: http://www.softlang.org/ # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: reallynotabba
 github_username: softlang
 
@@ -28,6 +27,7 @@ theme: minima
 gems:
   - jekyll-feed
 exclude:
+  - site.zip
   - Makefile
   - Gemfile
   - Gemfile.lock

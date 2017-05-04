@@ -21,6 +21,7 @@ serve:
 
 # Pack site
 pack:
+	cp ../../yas/dump.json _site/yas
 	rm site.zip; cd _site; zip -r ../site.zip .
 
 # Upload site's zipfile to web server
