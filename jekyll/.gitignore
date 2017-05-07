@@ -3,7 +3,14 @@ site.zip
 .sass-cache
 .jekyll-metadata
 yas/languages.md
+yas/functions.md
+yas/representations.md
 yas/externals.md
+yas/files.md
+yas/directories.md
 yas/languages/*.md
+yas/functions/*.md
+yas/representations/*.md
+yas/directories/*.md
 yas/files/*.md
 
