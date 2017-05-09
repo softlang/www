@@ -39,3 +39,15 @@ deploy:
 	make upload
 	make unzip
 
+clean:
+	rm -f yas/languages.md
+	rm -f yas/functions.md
+	rm -f yas/representations.md
+	rm -f yas/externals.md
+	rm -f yas/files.md
+	rm -f yas/directories.md
+	rm -f yas/languages/*.md
+	rm -f yas/functions/*.md
+	rm -f yas/representations/*.md
+	rm -f yas/directories/*.md
+	rm -f yas/files/*.md
